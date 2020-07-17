@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.entidades.Pokemon;
 import com.example.demo.services.PokemonService;
 
+
+//mi commmt
 @RestController
 @RequestMapping("/pokemon")
 public class PokemonController {
@@ -28,6 +30,5 @@ public class PokemonController {
 	public List<Pokemon> mostrarPokemon(){
 		return pokemonService.mostrar();
 	}
-	
 	
 }
